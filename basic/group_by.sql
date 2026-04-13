@@ -1,4 +1,5 @@
 --Q1: 商品分類ごとにグループ化し、それぞれの「商品分類名」と「その分類に属する行数」を表示してください。
+use practice;
 
 select shohin_bunrui,count(shohin_mei)
 from shohin
