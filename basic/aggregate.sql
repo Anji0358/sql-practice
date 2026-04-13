@@ -6,7 +6,7 @@ from shohin;
 select avg(hanbai_tanka)
 from shohin;
 
--- Q15 商品分類ごとの商品数を求めてください。]
+-- Q15 商品分類ごとの商品数を求めてください。
 select shohin_bunrui,count(shohin_mei)
 from shohin
 group by shohin_bunrui;
