@@ -73,3 +73,5 @@ INSERT INTO StoreProduct (store_id, store_name, product_id, quantity) VALUES
 ('000D', 'Fukuoka', '0008', 52),
 ('000A', 'Tokyo', '0006', 38),
 ('000C', 'Osaka', '0008', 27);
+
+select * from StoreProduct;

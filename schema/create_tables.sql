@@ -7,6 +7,7 @@ CREATE TABLE shohin (
     torokubi DATE,
     PRIMARY KEY (shohin_id)
 );
+drop table TenpoShohin;
 
 CREATE TABLE StoreProduct(
     store_id  CHAR(4)       NOT NULL,
